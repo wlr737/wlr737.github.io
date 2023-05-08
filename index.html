@@ -108,7 +108,7 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Publications</heading>
+                  <heading>Selected Publications (<a href="data/QingyiSi-CV.pdf">full papers</a>)</heading>
                   <p>
                     <a href="https://scholar.google.com/citations?hl=en&user=JD8EHtoAAAAJ">Google Scholar</a> /
                     <a href="https://www.semanticscholar.org/author/Qingyi-Si/84109730">Semantic Scholar</a> / <a
@@ -274,7 +274,7 @@ the most of them. . It is compatible with multiple backbone models and debiasing
                   <br>
                   <strong>Qingyi Si</strong>, Zheng Lin, Ming yu Zheng, Peng Fu, Weiping Wang
                   <br>
-                  <em>ACL</em>, 2021
+                  <em>ACL</em>, 2021 &nbsp <font color="red"><strong>(Main Conference)</strong></font>
                   <br>
                   <a href="https://aclanthology.org/2021.acl-long.317.pdf">pdf</a>
                   /
@@ -293,9 +293,9 @@ the existing VQA models and further boost their OOD robustness. Our method estab
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
-                      <img src='images/IJCAI21.jpg' width="190">
+                      <img src='images/IJCAI21.png' width="190">
                     </div>
-                    <img src='images/IJCAI21.jpg' width="190">
+                    <img src='images/IJCAI21.png' width="190">
                   </div>
                   <script type="text/javascript">
                     function malle_start() {
@@ -324,14 +324,14 @@ the existing VQA models and further boost their OOD robustness. Our method estab
                   </p>
                 </td>
               </tr>
-
+          
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
-                      <img src='images/SparseSharing.png' width="190">
+                      <img src='images/CompressRobust.png' width="190">
                     </div>
-                    <img src='images/SparseSharing.png' width="190">
+                    <img src='images/CompressRobust.png' width="190">
                   </div>
                   <script type="text/javascript">
                     function malle_start() {
@@ -345,25 +345,61 @@ the existing VQA models and further boost their OOD robustness. Our method estab
                   </script>
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://ojs.aaai.org//index.php/AAAI/article/view/6424">
-                    <papertitle>Learning Sparse Sharing Architectures for Multiple Tasks</papertitle>
+                  <a href="https://arxiv.org/abs/2210.14558">
+                    <papertitle>Compressing And Debiasing Vision-Language Pre-Trained Models for Visual Question Answering</papertitle>
                   </a>
                   <br>
-                  <strong>Tianxiang Sun</strong>*, Yunfan Shao*, Xiaonan Li, Pengfei Liu, Hang Yan, Xipeng Qiu, Xuanjing
-                  Huang
+                  <strong>Qingyi Si</strong>*, Yuanxin Liu*, Zheng Lin, Peng Fu, Weiping Wang
                   <br>
-                  <em>AAAI</em>, 2020 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <em>preprint</em>, 2023 
                   <br>
-                  <a href="https://txsun1997.github.io/papers/aaai2020.pdf">pdf</a>
+                  <a href="https://arxiv.org/pdf/2210.14558.pdf">pdf</a>
                   /
-                  <a href="https://github.com/choosewhatulike/sparse-sharing">code</a>
-                  /
-                  <a href="https://txsun1997.github.io/slides/sparse_sharing.pdf">slides</a>
+                  <a href="xxxx">code</a>
                   <p></p>
                   <p>
-                    We propose a new parameter sharing mechanism for multi-task learning, sparse sharing, which
-                    allocates a subnet for a task based on lottery ticket hypothesis. The sparse sharing successfully
-                    avoids negative transfer between tasks.
+                    This paper investigates whether a VLP can be compressed and debiased simultaneously by searching sparse and robust subnetworks. To this end, we systematically study the design of a training and compression pipeline to search the subnetworks, as well as the assignment of sparsity to different modality-specific modules. 
+                    Our results show that there indeed exist sparse and robust subnetworks, which clearly outperform the debiasing SoTAs with fewer parameters
+                  </p>
+                </td>
+              </tr>
+                                                                                                                           
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/MM22.png' width="190">
+                    </div>
+                    <img src='images/MM22.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548170">
+                    <papertitle>Visual Dialog for Spotting the Differences between Pairs of Similar Images</papertitle>
+                  </a>
+                  <br>
+                 Duo Zheng, Fandong Meng, <strong>Qingyi Si</strong>, Hairun Fan, Zipeng Xu, Jie Zhou, Fangxiang Feng, Xiaojie Wang
+
+ 
+                  <br>
+                  <em>MM</em>, 2022 &nbsp
+                  <br>
+                  <a href="https://dl.acm.org/doi/pdf/10.1145/3503161.3548170">pdf</a>
+                  /
+                  <a href="https://github.com/zd11024/Spot_Difference">code</a>
+                  <p></p>
+                  <p>
+                    We propose a cooperative object-referring game Dial-the-Diff, where the goal is to locate the different object between two similar images via conversing between questioner and answerer. The task addresses two new challenges in visual dialog, including the difference-oriented dialog strategy and the ability of categorization. 
                   </p>
                 </td>
               </tr>
@@ -388,9 +424,9 @@ the existing VQA models and further boost their OOD robustness. Our method estab
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
-                      <img src='images/moss.png' width="190">
+                      <img src='images/alpaca-cot.png' width="190">
                     </div>
-                    <img src='images/moss.png' width="190">
+                    <img src='images/alpaca-cot.png' width="190">
                   </div>
                   <script type="text/javascript">
                     function malle_start() {
@@ -404,176 +440,66 @@ the existing VQA models and further boost their OOD robustness. Our method estab
                   </script>
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="http://moss.fastnlp.top/">
-                    <papertitle>MOSS: A Conversational Language Model</papertitle>
+                  <a href="https://github.com/PhoebusSi/alpaca-CoT/">
+                    <papertitle>Alpaca-CoT: An Instruction Fine-Tuning Platform with Instruction Data Collection and Unified Large Language Models Interface</papertitle>
                   </a>
                   <br>
-                  project led by <strong>Tianxiang Sun</strong>
+                  project led by <strong>Qingyi Si</strong>
                   <p>
-                    MOSS is a conversational language model like ChatGPT. It is capable of following users' instructions
-                    to perform various natural language tasks including question answering, generating text, summarzing
-                    text, generating code, etc. MOSS is also able to challenge incorrect premises, and reject
-                    inappropriate requests. Here is a brief <a
-                      href="https://txsun1997.github.io/blogs/moss.html">introduction</a> to MOSS.
+                    We unified the interfaces of instruction-tuning data (e.g., CoT data), multiple LLMs and parameter-efficient methods (e.g., lora, p-tuning) together for easy use. Meanwhile, we created a new branch to build a Tabular LLM.
+                                                    This project can be found <a href="https://github.com/PhoebusSi/alpaca-CoT/">here</a>. The data collection can be found <a href="https://huggingface.co/datasets/QingyiSi/Alpaca-CoT">here</a>.  
                   </p>
                 </td>
               </tr>
 
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/LMaaS.png' width="190">
-                    </div>
-                    <img src='images/LMaaS.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
+            
 
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://github.com/txsun1997/LMaaS-Papers">
-                    <papertitle>Paper List on Language-Model-as-a-Service (LMaaS)</papertitle>
-                  </a>
-                  <br>
-                  maintained by <strong>Tianxiang Sun</strong>
-                  <p>
-                    Pre-trained large language models (LLMs) such as GPT-3 are usually released as a service instead of
-                    open sourcing model weights. We call this scenario "Language-Model-as-a-Service (LMaaS)", where
-                    users can access the powerful LLMs through their inference APIs. We maintain a curated list of
-                    papers that fit into this scenario.
-                  </p>
-                </td>
-              </tr>
-
-              <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/ELUE.png' width="190">
-                    </div>
-                    <img src='images/ELUE.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="http://eluebenchmark.fastnlp.top/">
-                    <papertitle>ELUE: A Multi-dimensional Benchmark for Efficient NLP Methods</papertitle>
-                  </a>
-                  <br>
-                  maintained by <strong>Tianxiang Sun</strong> and <a
-                    href="https://scholar.google.com/citations?hl=en&user=U8QD9mwAAAAJ">Xiangyang Liu</a>
-                  <p>
-                    ELUE (Efficient Language Understanding Evaluation) is a standard benchmark for evaluating and
-                    comparing performance, FLOPs, and number of parameters of efficient NLP models such as compressed
-                    models and early exiting models.
-                  </p>
-                </td>
-              </tr> -->
-
-              <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/ParadigmShiftPj.png' width="190">
-                    </div>
-                    <img src='images/ParadigmShiftPj.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://txsun1997.github.io/nlp-paradigm-shift/">
-                    <papertitle>Paradigm Shift in Natural Language Processing</papertitle>
-                  </a>
-                  <br>
-                  maintained by <strong>Tianxiang Sun</strong>
-                  <p>
-                    A paradigm is a general modeling framework or a distinct set of methodologies to solve a class of
-                    tasks. For example, sequence labeling is a mainstream paradigm for named entity recognition (NER).
-                    Recent years have witnessed a rising trend of paradigm shift, which is solving a task in a new
-                    paradigm by reformulating the task.
-                  </p>
-                </td>
-              </tr> -->
+              
+          
 
             </tbody>
           </table>
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Service</heading>
-                  <p>
-                    <b>Student Seminar Co-Chair</b>
-                  </p>
-                  <ul>
-                    <li> CCL 2023</li>
-                  </ul>
-                  <p>
-                    <b>Reviewer / Program Committee Member</b>
-                  </p>
-                  <ul>
-                    <li> ACL (2021, 2022, 2023)</li>
-                    <li> EMNLP (2021, 2022)</li>
-                    <li> COLING (2020, 2022)</li>
-                    <li> ICML (2022)</li>
-                    <li> NeurIPS (2022, 2023)</li>
-                    <li> AAAI (2021)</li>
-                    <li> IJCAI (2021)</li>
-                  </ul>
-                  <em>Will not submit to or write reviews for AAAI/IJCAI since 2022 :)</em>
+                  <heading>Honors and Awards</heading>
+      
+                    <li> National Scholarship for Doctoral students (Top 2%, RMB ¥ 30,000).
+Ministry of Education of P.R. China. 2021. </li>
+                    <li> Merit Student, University of Chinese Academy of Sciences (UCAS). 2020, 2021. </li>
+                    <li> Excellent Student Cadre, University of Chinese Academy of Sciences (UCAS). 2020. </li>
+                    <li> Excellent Undergraduate Graduation Project (Thesis), Beijing.
+Education Commission of Beijing. 2019. </li>
+                    <li> Regular Institutions of Higher Education Outstanding Graduate, Beijing.
+Education Commission of Beijing. 2019. </li>
+                    <li> National Scholarship for Undergraduates (Top 2%, RMB ¥ 8,000).
+Ministry of Education of P.R. China. 2017, 2018.</li>
+                 
                 </td>
               </tr>
             </tbody>
           </table>
 
-          <!-- <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Awards</heading>
-                  <ul>
-                    <li> National Scholarship for Graduate Student, Oct. 2020</li>
-                    <li> Outstanding Graduate of Xidian University, Jun. 2019</li>
-                    <li> Honorable Mention in MCM/ICM, Feb. 2018</li>
-                    <li> First Prize in National MCM (Shaanxi division), Oct. 2017</li>
-                    <li> Principal Scholarship in School of Computer Science and Technology at XDU (4 times), 2017-2019
-                    </li>
-                    <li> First Prize Scholarship of Xidian University (4 times), 2015-2019</li>
-                    <li> First Prize in China High School Biology Olympiad, Jun. 2014</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
