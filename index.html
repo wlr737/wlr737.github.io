@@ -109,9 +109,9 @@
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
-                      <img src='images/Sibyl.png' width="190">
+                      <img src='images/NIAT.png' width="190">
                     </div>
-                    <img src='images/Sibyl.png' width="190">
+                    <img src='images/NIAT.png' width="190">
                   </div>
                   <script type="text/javascript">
                     function malle_start() {
@@ -129,16 +129,16 @@
                     <papertitle>NeedleInATable: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables </papertitle>
                   </a>
                   <br>
-                  <strong>Lanrui Wang</strong>, Jiangnan Li*, Chenxu Yang, Zheng Lin, Hongyin Tang, Huan Liu, Yanan Cao, Jingang Wang, Weiping Wang
+                  <strong>Lanrui Wang</strong>, Mingyu Zheng, Hongyin Tang, Zheng Lin, Yanan Cao, Jingang Wang, Xunliang Cai, Weiping Wang
                   <br>
-                  <em>COLING</em>, 2025
+                  <em>Submitted to NeurIPS</em>, 2025
                   <br>
-                  <a href="https://arxiv.org/abs/2311.15316">pdf</a>
+                  <a href="https://arxiv.org/abs/2504.06560">pdf</a>
                   /
-                  <a href="https://github.com/wlr737/Sibyl">code</a>
+                  <a href="https://arxiv.org/abs/2504.06560">code</a>
                   <p></p>
                   <p>
-                  Current commonsense knowledge derived from dialogue contexts is inherently limited and often fails to adequately anticipate the future course of a dialogue. This lack of foresight can mislead LLMs and hinder their ability to provide effective support. In response to this challenge, we present an innovative framework named Sensible and Visionary Commonsense Knowledge (Sibyl).
+                  Processing structured tabular data, particularly large and lengthy tables, constitutes a fundamental yet challenging task for large language models (LLMs). However, existing long-context benchmarks like Needle-in-a-Haystack primarily focus on unstructured text, neglecting the challenge of diverse structured tables. Meanwhile, previous tabular benchmarks mainly consider downstream tasks that require high-level reasoning abilities, and overlook models' underlying fine-grained perception of individual table cells, which is crucial for practical and robust LLM-based table applications. To address this gap, we introduce \textsc{NeedleInATable} (NIAT), a new long-context tabular benchmark that treats each table cell as a ``needle'' and requires models to extract the target cell based on cell locations or lookup questions. Our comprehensive evaluation of various LLMs and multimodal LLMs reveals a substantial performance gap between popular downstream tabular tasks and the simpler NIAT task, suggesting that they may rely on dataset-specific correlations or shortcuts to obtain better benchmark results but lack truly robust long-context understanding towards structured tables. Furthermore, we demonstrate that using synthesized NIAT training data can effectively improve performance on both NIAT task and downstream tabular tasks, which validates the importance of NIAT capability for LLMs' genuine table understanding ability. Our data, code and models will be released to facilitate future research.
                   </p>
                 </td>
               </tr>
